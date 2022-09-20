@@ -9,9 +9,7 @@
 </head>
 
 <body>
-    <?php
-    echo "Me llamno Antonio Jesús Cabrera";
-    ?>
+    
 </body>
 
 </html>
