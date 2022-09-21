@@ -11,9 +11,9 @@
 <body>
     <h3>Calcular el tiempo que tarda en llenarse un cilindro:</h3>
     <form action="resultado5.php" method="get">
-        Altura: <input type="number" name="altura"><br><br>
-        Diámetro: <input type="number" name="diametro"><br><br>
-        Caudal (litros/minuto): <input type="number" name="caudal"><br><br>
+        Altura: <input type="number" name="altura" step="0.01">><br><br>
+        Diámetro: <input type="number" name="diametro" step="0.01">><br><br>
+        Caudal (litros/minuto): <input type="number" name="caudal" step="0.01">><br><br>
         <input type="submit" value="Calcular">
     </form>
 </body>

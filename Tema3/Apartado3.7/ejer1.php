@@ -11,8 +11,8 @@
 <body>
     <h3>Calcular el volumen de un cilíndro</h3>
     <form action="resultado1.php" method="get">
-        Altura: <input type="number" name="altura"><br><br>
-        Diámetro: <input type="number" name="diametro"><br><br>
+        Altura: <input type="number" name="altura" step="0.01"><br><br>
+        Diámetro: <input type="number" name="diametro" step="0.01">><br><br>
         <input type="submit" value="Calcular">
     </form>
 </body>
