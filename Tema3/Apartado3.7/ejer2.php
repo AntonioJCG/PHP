@@ -18,7 +18,7 @@
         <input type="number" name="n5" style="width:50px">
         <input type="number" name="n6" style="width:50px"><br><br>
         Número de serie: <input type="number" name="nserie"><br><br>
-        <input type="submit" value="Calcular">
+        <input type="submit" value="Enviar">
     </form>
 </body>
 
