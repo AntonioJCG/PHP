@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <table border="1">
+    <table border="1" cellspacing="0">
         <tr>
             <th>Bloque</th>
             <th>Piso</th>
