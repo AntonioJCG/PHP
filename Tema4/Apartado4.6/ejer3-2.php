@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <?php
+    $intentos;
     if (isset($_REQUEST['num'])) {
-        header('Refresh:2; url=ejer1.html');
-        //header('location:Ejemplo1.php');
-        //header('Refresh:2; url=Ejemplo1.php');
+        $intentos++;
+        header('Refresh:2; url=ejer3-1.php?intentos='.$intentos);
     }
     ?>
 </head>
@@ -26,7 +26,7 @@
         } else {
         ?>
             <h1>Lo siento, has fallado. Sigue intentándolo.</h1>
-            <a href="ejer1.html">
+            <a href="ejer3-1.php">
                 <h3>Volver</h3>
             </a>
         <?php
