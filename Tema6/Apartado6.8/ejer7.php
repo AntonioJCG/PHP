@@ -13,12 +13,14 @@
     include("funciones.php");
 
     if (isset($_REQUEST['enviar'])) {
+        $parrafo = $_REQUEST['parrafo'];
         $palabra = $_REQUEST['palabra'];
-        rotaString($palabra);
+        buscaPalabra($parrafo, $palabra);
     } else { ?>
-        <h3>Escribe una palabra para rotar:</h3><br>
-        <form action="ejer5.php" method="POST">
-            <input type="text" name="palabra" required><br><br>
+        <h3>Escribe un párrafo y una palabra:</h3><br>
+        <form action="ejer7.php" method="POST">
+            Párrafo: <input type="text" name="parrafo" required><br><br>
+            Palabra: <input type="text" name="palabra" required><br><br>
             <input type="submit" name="enviar" value="Enviar">
         </form>
     <?php

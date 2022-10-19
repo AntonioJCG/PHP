@@ -15,7 +15,7 @@
     if (isset($_REQUEST['enviar'])) {
         $frase = $_REQUEST['frase'];
         echo "El número de palabras es: ";
-        cuentaPalabras($frase);
+        echo cuentaPalabras($frase);
     } else { ?>
         <h3>Escribe una frase para contar sus palabras:</h3><br>
         <form action="ejer3.php" method="POST">
