@@ -161,7 +161,7 @@ if (isset($_REQUEST['borraMew'])) {
                 </form>
             <?php
             }
-            $total = 0;
+            $total = (20 * $_SESSION['cantBul']) + (20 * $_SESSION['cantChar']) + (20 * $_SESSION['cantSqr']) + (30 * $_SESSION['cantMew']);
             echo "<br><br>Total: " . $total . " €";
             ?>
         </div>
